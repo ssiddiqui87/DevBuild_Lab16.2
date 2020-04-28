@@ -55,16 +55,17 @@ let productResult:number = calcAverageProductPrice(products);
 console.log(`Average price: ${productResult}`);
 
 // *************************************************************************
-let prods:Product[] = [
-    {"name": "motor", "price": 10.00},
-    {"name": "sensor", "price": 12.50},
-    {"name": "LED", "price": 1.00}
-]
 
 interface InventoryItem {
     product:Product;
     quantity:number;
 }
+
+let prods:Product[] = [
+    {"name": "motor", "price": 10.00},
+    {"name": "sensor", "price": 12.50},
+    {"name": "LED", "price": 1.00}
+]
 
 let inventory:InventoryItem[] = [
 {"product":prods[0], "quantity":10},
