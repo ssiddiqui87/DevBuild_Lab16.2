@@ -33,7 +33,6 @@ function calcAverageProductPrice(prod) {
 }
 var productResult = calcAverageProductPrice(products);
 console.log("Average price: " + productResult);
-// *************************************************************************
 var prods = [
     { "name": "motor", "price": 10.00 },
     { "name": "sensor", "price": 12.50 },
